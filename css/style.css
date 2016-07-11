@@ -86,13 +86,26 @@ header {
 	padding-left: 6px;
 }
 
-.login-form .enter {
+.login-form input[type="submit"]{
 	float: left;
-	margin-left: 2px;
+	border: none;
+	background: none;
+	color: white;
+	font-size: 10.91px;
+	line-height: 25.46px;
+	font-family: "Lucida Sans Unicode";
+	cursor: pointer;
+	letter-spacing: -0.1px;
+	margin-left: 1px;
+}
+
+.login-form .reg {
+	float: left;
+	margin-left: 3px;
 	height: 27px;
 }
 
-.login-form .enter a {
+.login-form .reg a {
 	font-size: 10.91px;
 	line-height: 25.46px;
 	font-family: "Lucida Sans Unicode";
@@ -102,7 +115,7 @@ header {
 	letter-spacing: -0.35px;
 }
 
-.login-form .enter span {
+.login-form .reg span {
 	font-size: 10.91px;
 	line-height: 25.46px;
 	font-family: "Lucida Sans Unicode";
@@ -122,23 +135,34 @@ header .password a {
 	font-size: 12px;
 	line-height: 26px;
 	font-family: "Lucida Sans Unicode";
-	letter-spacing: 0.2px;
+	letter-spacing: 0.1px;
 	color: #bfbfbf;
+	text-decoration: none;
 }
+
+header .underline-password {
+	height: 1px;
+	width: 94px;
+	background: #bfbfbf;
+	position: absolute;
+	margin-top: 37px;
+	margin-left: 703px;
+}
+
 
 .wrapper header .navi {
 	float: right;
 	width: 74px;
 	height: 19px;
-	margin-top: 18px;
-	margin-right: 6px;
+	margin-top: 19px;
+	margin-right: 7px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
-	border-radius: 8px;
+	border-radius: 12px;
 	border: 1px solid #c1c8cb;
-	-webkit-box-shadow: 1px 3px 3px 0px rgba(208, 213, 215, 0.75);
-	-moz-box-shadow:    1px 3px 3px 0px rgba(208, 213, 215, 0.75);
-	box-shadow:         1px 3px 3px 0px rgba(208, 213, 215, 0.75);
+	-webkit-box-shadow: 1px 2px 2px 0px rgba(208, 213, 215, 0.75);
+	-moz-box-shadow:    1px 2px 2px 0px rgba(208, 213, 215, 0.75);
+	box-shadow:         1px 2px 2px 0px rgba(208, 213, 215, 0.75);
 }
 
 .navi ul {
@@ -151,22 +175,24 @@ header .password a {
 	
 .navi ul li {
 	float: left;
+	margin-top: -1px;
 }
 
 .navi ul .home {
-	margin-left: 8px;
+	margin-left: 9px;
 	height: 12px;
 }
 
 .navi ul .map {
 	margin-left: 8px;
-	height: 12px;
-	margin-top: 1px; 
+	height: 12px; 
+	margin-top: -0.5px;
 }
 
 .navi ul .mail {
 	margin-left: 9px;
 	height: 12px;
+	margin-top: -1px;
 }
 
 .baner {
@@ -348,7 +374,7 @@ nav .contact a:hover{
 	font-size: 11px;
 	font-family: Arial;
 	padding-top: 5px;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.4px;
 	padding-left: 12px;
 }
 
@@ -356,7 +382,7 @@ nav .contact a:hover{
 	color: #104c77;
 	font-size: 12px;
 	font-family: Arial;
-	margin-left: 9.5px;
+	margin-left: 8px;
 	letter-spacing: 0.4px;
 }
 
@@ -523,6 +549,13 @@ aside ul .chepter3 img {
 }
 
 
+.add {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 45px;
+}
+
+
 /* MAIN */
 
 
@@ -638,8 +671,8 @@ main .figure1 .rate span {
 
 .rigth .brandlist {
 	height: 25px;
-	width: 182px;
-	margin-top: 5px;
+	width: 180px;
+	margin-top: 3px;
 	margin-left: 10px;
 	border-radius: 13px;
 	border: 1px solid #8b979c;
@@ -653,7 +686,7 @@ main .figure1 .rate span {
 .rigth .brandlist a {
     text-decoration: none;
 	margin-left: 30px;
-	margin-top: 2px;
+	margin-top: 4px;
 	line-height: 25.46px;
 	font-size: 14px;
 	font-family: "Lucida Sans Unicode";
@@ -670,7 +703,7 @@ main .figure1 .rate span {
 .rigth .tiers {
 	height: 28px;
 	width: 134px;
-	margin-top: 12px;
+	margin-top: 14px;
 	margin-left: 23px;
 	margin-bottom: 3px;
 	border-radius: 15px;
